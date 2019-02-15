@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="The world of the dogs" content="width=device-width, initial-scale=1.0">
+	<title>Blueprint: Zoom Slider</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>The dogs and their world<span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>THE FABULOUS DOGS</h1>
+			<nav>
+				<a href="http://tympanus.net/Blueprints/FilterableProductGrid/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+				<!--a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+				<a href="http://tympanus.net/codrops/?p=24330" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+				<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+			</nav>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/j.jpg" alt="DOG" />
+						<div class="preview">
+							<img src="images/j.jpg" alt="iPhone app preview" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>SO PRETTY</span>LABRADOR</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+
+						<div class="preview">
+							<img src="images/bergerr.jpg" alt="iPad Mini app preview" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>SO CUTE</span> BERGER BLANC SUISSE</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img src="images/le-colley.jpg" alt="MacBook app preview" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>THE AMAZING</span>COLLEY</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/spitz.jpg" alt="iMac" />
+						<div class="preview">
+							<img src="images/spitz.jpg" alt="iMac app preview" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>THE GLORIOUS</span> SPITZ NAIN</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+
+						<div class="preview rounded">
+							<img src="images/chow.jpg" alt="Apple Watch app preview" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>THE FABULOUS</span> CHAW CHAW</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/j.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>SO PRETTY</h2>
+		<p>Le Labrador est l’un des chiens les plus populaires. Son image de chien de famille, gourmand et adorable avec les enfants lui colle à la peau. Pourtant, le Labrador reste un chien et en tant que tel, il ne naît pas gentil ni sociable, cela sera le résultat de son éducation et de sa socialisation. Donc si vous adoptez un Labrador en pensant adopter un chien qui s'intégrera tout seul dans votre foyer et qui se contentera de votre jardin, vous faites une erreur. Le Labrador est un chien dynamique, qui aura besoin de balades et d’activités. Il devra être socialisé aux enfants et devra surtout être respecté et éduqué intelligemment afin de vraiment devenir un “bon chien de famille”.
+
+         </p>
+					<p><a href="https://www.apple.com/iphone-6/technology/">Learn more about this technology &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/ber.jpg" alt="iPad Mini Content" />
+				<div class="content__item-inner">
+					<h2>BERGER BLANC SUISSE</h2>
+			<p>	Le Berger blanc suisse est un chien puissant et solide, de taille moyenne. Il a un profil tout en élégance et en harmonie et développe une musculature impressionnante. Le corps se termine par une queue touffue qui est attachée bas. Cette race possède une tête proportionnelle avec son gabarit. Elle est puissante avec un crâne peu bombé. On remarque le stop légèrement marqué de l’animal ainsi que son museau ni trop grand ni trop petit.
+			 Et que dire de ses yeux, ils sont très expressifs et affichent un coloris brun foncé qui tranche avec la couleur de la robe. Ses oreilles sont triangulaires, portées haut et un peu arrondies sur les bouts. Le pelage quant à lui peut être long ou mi-long. Le standard n’admet pas les poils bouclés, mais seulement les poils ondulés. Comme son nom l’indique déjà, la robe est immaculée.
+		 </p>
+			</div>
+
+
+				</div>
+
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/chien.jpg" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>THE COLLEY</h2>
+					<p>Le Colley à poil long est un compagnon de vie idéal pour les familles désirant posséder un chien à l’écoute, calme, doux, docile et tendre avec les enfants. Il est en plus facile d’entretien malgré sa fourrure dense et épaisse. Il est aussi un parfait compagnon de sport puisqu’il a besoin de beaucoup courir quotidiennement. Enfin, son éducation est particulièrement aisée.</p>
+					<p><a href="https://www.apple.com/macbook/design/">Learn more about the design &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/spitz.jpg" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>THE SPITZ NAIN</h2>
+					<p>Le Colley à poil long est un compagnon de vie idéal pour les familles désirant posséder un chien à l’écoute, calme, doux, docile et tendre avec les enfants. Il est en plus facile d’entretien malgré sa fourrure dense et épaisse. Il est aussi un parfait compagnon de sport puisqu’il a besoin de beaucoup courir quotidiennement. Enfin, son éducation est particulièrement aisée.</p>
+					<p><a href="https://www.apple.com/imac/built-in-apps/">Learn more about the iMac's features &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/chow.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>THE CHOW CHOW</h2>
+					<p>Le Chow-Chow, ce chien aux allures de petit ours est de plus en plus populaire en France. Pourtant sous tous ces poils peut se cacher un chien difficile à gérer, surtout si son éducation n’est pas adaptée. Le Chow-Chow est un chien calme mais qui peut se montrer caractériel avec ses congénères notamment, surtout s’il n’est pas assez socialisé. De plus, son éducation devra être équilibrée et adaptée au cas par cas et le rappel devra être travaillé très jeune pour garantir la bonne réussite de cette indication essentielle.</p>
+					<p><a href="https://www.apple.com/watch/new-ways-to-connect/">Learn more about new ways to connect &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
